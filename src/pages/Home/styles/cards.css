@@ -1,0 +1,45 @@
+.card-container {
+  margin-block: calc(var(--spacing-2)*2);
+  flex-wrap: wrap;
+  gap: var(--spacing-1);
+}
+
+.card {
+  background-color: var(--color-grey-6);
+  border-radius: var(--radius-1);
+  padding: var(--spacing-1) var(--spacing-3);
+  max-width: 360px;
+  min-height: 460px;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card .button-brand {
+  padding: 0.4375rem 1.75rem;
+  text-decoration: none;
+}
+
+.card .title-size-2  {
+  margin-bottom: var(--spacing-3);
+}
+
+.card .text-size-1 {
+  display: block; 
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-content {
+  gap: var(--spacing-2);
+}
+
+.card-label {
+  background-color: var(--color-grey-4);
+  border-radius: var(--radius-1);
+  padding: 0.25rem var(--spacing-4);
+}

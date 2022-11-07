@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gridContainer {
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.cardContainer {
+    background-color: gainsboro;
+    border-radius: 18px;
+    box-shadow: 1px 1px #00000070;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardHeader {
+    display: flex;
+    column-gap: 10px;
+}
+
+.jobCompany {
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 500;
+
+}
+
+.jobName {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.jobLocation {
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 500;
+
+}
+.jobSalary {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.jobNullSalary {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 72, 72);
+    
+
+}
+
+.typeOfWork {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.jobLink {
+    background-color: #008CBA;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height: 24px;
+    border-radius: 18px;
+    width: 120px;
+    align-self: flex-end;
+    padding: 6px 4px;
+}
+

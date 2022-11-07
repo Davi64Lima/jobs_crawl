@@ -1,0 +1,32 @@
+/* TITLES */
+.title {
+  color: var(--color-grey-1);
+  font-weight: 600;
+}
+
+.title-size-1 {
+  font-size: var(--size-1);
+  margin-bottom: var(--spacing-1);
+}
+
+.title-size-2 {
+  font-size: var(--size-2);
+}
+
+/* TEXTS */
+.text {
+  color: var(--color-grey-2);
+  font-weight: 400;
+}
+
+.text-size-1 {
+  font-size: var(--size-3);
+}
+
+.text-size-2 {
+  font-size: var(--size-4);
+}
+
+.text-center {
+  text-align: center;
+}

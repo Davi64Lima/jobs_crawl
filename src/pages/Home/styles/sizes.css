@@ -1,0 +1,11 @@
+.full-width {
+  width: 100%;
+}
+
+.fit-height {
+  height: fit-content;
+}
+
+.full-height {
+  height: 100%;
+}

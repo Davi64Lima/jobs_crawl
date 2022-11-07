@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--color-grey-1);
+  max-height: fit-content;
+  min-height: 300px;
+  padding: var(--spacing-3);
+}
+
+.footer .container {
+  gap: var(--spacing-2);
+}
+
+.footer .title,
+.footer .text {
+  color: var(--color-grey-6);
+}
+
+.footer .title {
+  margin-bottom: var(--spacing-3);
+}
+
+@media (min-width: 430px) {
+  .form {
+    flex-direction: row;
+  }
+
+  .input-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
